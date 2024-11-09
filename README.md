@@ -19,7 +19,8 @@ Instructions pour configurer un projet Node.js avec Express et Nodemon :
 - Installez Express en exécutant : npm install express.
 - Installez Nodemon en exécutant : npm install nodemon.
 (Nodemon permet de redémarrer automatiquement le serveur après chaque modification.)
-      À ce stade, tous les packages, le fichier package.json et le dossier node_modules seront créés.
+
+À ce stade, tous les packages, le fichier package.json et le dossier node_modules seront créés.
 
 - Dans le fichier package.json, ajoutez dans la section "scripts{}" : "start": "nodemon index.js" 
 Utilisez la commande npm start pour lancer le serveur avec Nodemon.
